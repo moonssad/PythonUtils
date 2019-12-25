@@ -1,5 +1,7 @@
 # %matplotlib inline
 # 主成分分析法对数据进行降维。采用方式是svd方法。GitHub上大神的demo地址是https://github.com/eliorc/Medium/blob/master/PCA-tSNE-AE.ipynb
+#pca原理介绍：https://blog.csdn.net/lrt366/article/details/82964326
+#svd计算放大：https://blog.csdn.net/qq_38106472/article/details/90208998
 import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
